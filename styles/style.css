@@ -1,0 +1,77 @@
+body {
+	margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper {
+	
+}
+
+.header__cont {
+	background-image: url(images/masthead.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	min-height: 730px;
+	color: white;
+}
+
+.logo {
+	padding: 45px 60px;
+}
+
+.logo img {
+	width: 75px;
+}
+
+.slogan {
+	padding: 60px;
+}
+
+		.slogan h1 {
+			font-weight: 100;
+			font-size: 3em;
+			margin-bottom: -1px;
+		}
+
+		.slogan p {
+			font-weight: 100;
+			font-size: 0.7em;
+			line-height: 1.6;
+		}
+
+		.slogan a {
+			text-decoration: none;
+			color: white;
+			font-weight: bold;
+			font-size: 0.8em;
+		}
+
+				.arrow {
+					display: inline-block;
+					height: 1px;
+					width: 10px;
+					background: #fff;
+					position: relative;
+				}
+
+				.arrow:after {
+					content: "";
+					width: 0;
+					height: 0;
+					position: absolute;
+					top: -1px;
+					left: 100%;
+					border-width: 2px 0 2px 4px;
+					border-style: solid;
+					border-color: transparent #fff;
+				}
+
+.iphone img {
+	width: 100%;
+	margin-top: -10%;
+	margin-left: -35%;
+}
