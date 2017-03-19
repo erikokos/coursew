@@ -1,15 +1,12 @@
 body {
 	margin: 0px;
     padding: 0px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
-.wrapper {
-	
-}
-
+/*///////////////////////////////*//*FIRST_ROW/////////////////////////*/
 .header__cont {
 	background-image: url(images/masthead.jpg);
 	background-size: cover;
@@ -32,7 +29,7 @@ body {
 }
 
 		.slogan h1 {
-			font-weight: 100;
+			font-weight: 200;
 			font-size: 3em;
 			margin-bottom: -1px;
 		}
@@ -75,3 +72,35 @@ body {
 	margin-top: -10%;
 	margin-left: -35%;
 }
+
+/*///////////////////////////////*//*SECOND_ROW/////////////////////////*/
+.section-2 {
+	min-height: 600px;
+	padding-left: 80px;
+	background: linear-gradient(45deg,rgba(0, 0, 0, 0) 48%,
+									rgba(0, 0, 0, 0.05) 50%,
+									rgba(0, 0, 0, 0) 52%),
+								    linear-gradient(-45deg,
+									rgba(0, 0, 0, 0) 48%,
+									rgba(0, 0, 0, 0.05) 50%,
+									rgba(0, 0, 0, 0) 52%);
+  	background-color: #fff;
+	background-size: 2em 2em;
+}
+
+		.section-2 h3 {
+			padding-top: 8%;
+			padding-right: 10%;
+			font-weight: 600;
+			font-size: 1.8em;
+		}
+
+		.section-2 p {
+			padding-right: 10%;
+		}
+
+			.section-2 p:nth-of-type(1) {
+				color: grey;
+			}
+
+		
