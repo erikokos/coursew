@@ -87,6 +87,7 @@ body {
 /*///////////////////////////////*//*SECOND_ROW/////////////////////////*/
 .section-2 {
 	min-height: 600px;
+	max-height: 600px;
 	padding-left: 80px;
 	background: linear-gradient(45deg,rgba(0, 0, 0, 0) 48%,
 									rgba(0, 0, 0, 0.05) 50%,
@@ -196,3 +197,38 @@ body {
 			padding: 10%;
 			color: white;
 		}
+
+/*///////////////////////////////*//*FOURTH_ROW/////////////////////////*/
+
+.section-4 {
+	max-height: 600px;
+	padding-left: 80px;
+	padding-top: 4%;
+	background: linear-gradient(45deg,rgba(0, 0, 0, 0) 48%,
+									rgba(0, 0, 0, 0.05) 50%,
+									rgba(0, 0, 0, 0) 52%),
+								    linear-gradient(-45deg,
+									rgba(0, 0, 0, 0) 48%,
+									rgba(0, 0, 0, 0.05) 50%,
+									rgba(0, 0, 0, 0) 52%);
+  	background-color: #fff;
+	background-size: 2em 2em;
+}
+
+	.sec-4__h1 {
+		margin-left: 16.66666667%;
+		font-size: 2em;
+		color: #797B7B;
+	}
+
+	.section-4 h6 {
+		font-size: 0.8em;
+	}
+
+	.section-4 p {
+		padding-right: 10%;
+		font-size: 0.8em;
+		line-height: 1.7em;
+		font-weight: 600;
+		color: gray;
+	}
