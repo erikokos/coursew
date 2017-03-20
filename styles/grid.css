@@ -32,8 +32,8 @@
 .col-10,
 .col-11,
 .col-12 {
-	float: left;
 	//border: 1px solid orange;
+	float: left;
 	height: 300px;
 }
 
