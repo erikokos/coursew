@@ -394,3 +394,34 @@ body {
 	border-radius: 4px;
 	padding: 7px;
 }
+
+/*///////////////////////////////*//*SIXTH_ROW/////////////////////////*/
+
+.section-8 {
+	background-color: #192430;
+	color: #fff;
+	padding-top: 7%;
+}
+
+.footer__list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.eml {
+	margin-left: 10%;
+}
+
+.btn {
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+	margin-left: -5px;
+	background-color: #82CA9C;
+}
+
+.email {
+	height: 50px;
+	width: 80%;
+	padding-left: 5%;
+}
