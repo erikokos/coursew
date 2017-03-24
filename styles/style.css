@@ -1,6 +1,6 @@
 body {
 	max-width: 2050px;
-	margin: 0px;
+	margin: 0 auto;
     padding: 0px;
     font-family: 'Source Sans Pro', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -251,18 +251,19 @@ body {
 }
 
 .slogan {
-	margin-top: -8%;
+	margin-top: -25%;
 	padding-left: 60px;
 }
 
 		.slogan h1 {
-			font-weight: 200;
+			font-weight: 600;
 			font-size: 3em;
 			margin-bottom: -1px;
+			padding-right: 40%;
 		}
 
 		.slogan p {
-			font-weight: 100;
+			font-weight: 600;
 			font-size: 0.7em;
 			line-height: 1.6;
 		}
@@ -270,7 +271,7 @@ body {
 		.slogan a {
 			text-decoration: none;
 			color: white;
-			font-weight: bold;
+			font-weight: 900;
 			font-size: 0.8em;
 		}
 
@@ -294,3 +295,102 @@ body {
 					top: -1px;
 					left: 100%;
 				}
+
+/*///////////////////////////////*//*SIXTH_ROW/////////////////////////*/
+
+.section-6 {
+	max-height: 600px;
+	min-height: 600px;
+	padding-left: 80px;
+	padding-top: 90px;
+  	background-color: #82CA9C;
+}
+
+.section-6 .col-3 {
+	padding-right: 100px;
+}
+
+	.sec-6__h1 {
+		margin-left: 16.66666667%;
+		font-size: 2em;
+		color: white;
+	}
+
+	.section-6 h6 {
+		color: white;
+		font-size: 0.8em;
+	}
+
+	.section-6 p {
+		padding-right: 10%;
+		font-size: 0.8em;
+		line-height: 1.7em;
+		font-weight: 600;
+		color: white;
+	}
+
+	/*///////////////////////////////*//*SIXTH_ROW/////////////////////////*/
+
+.section-7 {
+	max-height: 600px;
+	min-height: 600px;
+	padding-left: 80px;
+	padding-top: 4%;
+	background: linear-gradient(45deg,rgba(0, 0, 0, 0) 48%,
+									rgba(0, 0, 0, 0.05) 50%,
+									rgba(0, 0, 0, 0) 52%),
+								    linear-gradient(-45deg,
+									rgba(0, 0, 0, 0) 48%,
+									rgba(0, 0, 0, 0.05) 50%,
+									rgba(0, 0, 0, 0) 52%);
+  	background-color: #fff;
+	background-size: 2em 2em;
+}
+
+.topic {
+	margin: 5px;
+	height: 400px;
+	border-radius: 2px;
+	padding: 10%;
+	transition: all 0.3s ease 0s;
+
+}
+
+.topic__h {
+	margin-top: 10%
+	font-size: 0.8em;
+	background-color: #CCCCCC;
+	color white;
+	text-transform: uppercase;
+	border: 1px solid #CCCCCC;
+	border-radius: 4px;
+	display: inline-block;
+	padding: 2px 6px;
+	font-weight: 600;
+	transition: background-color 0.6s ease 0s;
+}
+
+.topic:hover {
+	background-color: #fff;
+	box-shadow: 8px 2px 8px 8px rgba(0, 0, 0, .2);
+}
+
+.topic:hover .topic__h {
+	background-color: #BD8CBF;
+	border-color: #BD8CBF;
+	color: #fff;
+}
+
+.topic p {
+	width: 60%;
+}
+
+.button a {
+	text-decoration: none;
+	font-weight: 900;
+	color: white;
+	background-color: #82CA9C;
+	border: 1px solid #82CA9C;
+	border-radius: 4px;
+	padding: 7px;
+}
